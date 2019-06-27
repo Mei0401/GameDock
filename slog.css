@@ -1,0 +1,68 @@
+body {
+	background-image: url("321.jpg");
+	background-repeat: repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: #0C0C0C;
+	height: 60px;
+	text-align: center;
+}
+.pic{
+	padding: 0;
+}
+.title {
+	font-size: 30px;
+	color: white;
+	text-align: center;
+	padding-top: 10px;
+}
+
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 20px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  box-sizing: border-box;
+  font-size: 15px;
+}
+
+button {
+  background-color: #233142;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+}
+
+button:hover {
+  opacity: 0.8;
+}
+
+.container {
+  padding: 16px;
+  background-color: white;
+  margin: 15% 30%;
+  opacity: 0.9;
+}
+
+.container:hover {
+  opacity: 1;
+}
+
+
+
+
+
+
+
+

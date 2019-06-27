@@ -1,0 +1,90 @@
+Features: For each feature you implement, move to the Implemented section and
+explain who did it (utorid) and how you did it. You can consider these as 
+almost user stories, if you just add a bit to them. Add more features/user stories at the bottom.
+Move them up when completed.
+
+------------------------------------------------------------------------------------
+Implemented: 
+------------------------------------------------------------------------------------
+0) Login
+
+   Explanation: created schema, including appuser table, populated with 
+   default user. Also created handler for login state as well as login page.
+
+1) Register
+   
+   Explanation: Give option ask user to give username, password,confirm,email. Check
+   if password and confirm are matched. Check if username is already in the database or not.
+   Check if email/username are valid or not empty. Eception will be throw on the page.
+
+2) Prefilled register form
+   
+   Explanation: If submit a invalid form to register, the input except password and confirm will
+   be prefilled for user.
+
+3) Add logo in login/register page
+   
+   Explanation: Click logo will go back to login page.
+
+4) Navigation Bar
+   
+   Explanation: A bar on the top of page helps user jump to the page they want. User suppose
+   to see that when they have login. We have a customize designed logo on the bar.
+
+5) Main Page
+   
+   Explanation: The first page user sees when they first login. Contains a simple welcome sentence
+   for the user and some dynamic GIF instruction of games.
+
+6) Game Stats
+   
+   Explanation: A game stats page that stores the users' history game play result and start time, finish time.
+   The stats will be saved in SQL DB with start time, end time and result strings.
+
+7) Guess Game
+   
+   Explanation: A game that ask user to guess a number between 1-10.
+
+8) Guess Game result for single round
+   
+   Explanation: If user submit a false result, website will show user high or low, and the past submissions.
+
+9) 15 Puzzle
+   
+   Explanation: A 15 puzzle game. If the game wins, buttons on the page will froze and print a
+   result sentences.
+
+10) Frog Game
+   
+   Explanation: A frog game. If no more frogs can be moved, the gameboard will froze.
+
+11) Catch Time game
+   
+   Explanation: A catch time game. The game will ask user to give a time in seconds. Ater server
+   will count how much time passed and wait user to click another button. If the user click that
+   button, website will check if time passed are same as the user gave. Also website will give user
+   a feedback how well they have done.
+
+12) Logout
+   
+   Explanation: A logout button will destroy current session and jump back to login page.
+
+13) User Profile
+   
+   Explanation: User Profile gives user ability to modify their account.
+
+14) Change password
+   
+   Explanation: User's password can be change in profile page. When it success jump back
+   to login page
+
+15) Delete account
+   
+   Explanation: User can delete their account by one button.
+
+
+
+
+------------------------------------------------------------------------------------
+Unimplemented:
+------------------------------------------------------------------------------------
